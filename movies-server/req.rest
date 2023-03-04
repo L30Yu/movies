@@ -1,0 +1,21 @@
+POST http://localhost:3500/api/movie HTTP/1.1
+content-type: application/json
+
+{
+"title": "My Movie 2"
+}
+
+###
+
+GET http://localhost:3500/api/movies
+
+###
+
+PUT http://localhost:3500/api/like/640277548cddf282a45f373d HTTP/1.1
+content-type: application/json
+
+
+###
+
+DELETE http://localhost:3500/api/movie/6402758f926f7fe069182f19 HTTP/1.1
+content-type: application/json
